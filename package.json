@@ -1,0 +1,25 @@
+{
+  "name": "basic-testcafe-example",
+  "version": "1.0.0",
+  "description": "Basic TestCafe API example",
+  "main": "tests/testpage.js",
+  "scripts": {
+    "test": "testcafe all tests/testpage.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevExpress/testcafe.git"
+  },
+  "author": "Developer Express Inc. (https://devexpress.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DevExpress/testcafe/issues"
+  },
+  "homepage": "https://github.com/DevExpress/testcafe#readme",
+  "devDependencies": {
+    "testcafe": "*"
+  },
+  "dependencies": {
+    "testcafe-angular-selectors": "^0.3.0"
+  }
+}
